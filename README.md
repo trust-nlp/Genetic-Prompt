@@ -4,10 +4,14 @@ This repo contains the code for paper [Attributes as Textual Genes: Leveraging L
 ## Framework
 ![Geneticprompt](Framework.png)
 
+## Environment
+
+conda env create -f environment.yml
+conda activate SDG
+
 ## Dataset
 
 We use eight datasets covering diverse domains and tasks.  
-The table below lists the basic statistics and download sources.  
 We also provide preprocessing scripts in `/Data-preprocess` to convert the raw data into expected format.
 
 | Dataset | Domain | Task | Download |
@@ -50,6 +54,7 @@ If you find this repository helpful, please kindly consider citing the correspon
 ## Acknowledgement
 
 Inspired by and partly based on [AttrPrompt](https://github.com/yueyu1030/AttrPrompt). Thanks to the authors for open-sourcing it.
+
 
 
 
