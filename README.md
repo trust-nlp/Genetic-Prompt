@@ -2,7 +2,7 @@
 This repo contains the code for paper [Attributes as Textual Genes: Leveraging LLMs as Genetic Algorithm Simulators for Conditional Synthetic Data Generation](https://arxiv.org/abs/2509.02040), which will appear at Findings of EMNLP 2025. 
 
 ## Framework
-![Geneticprompt](framework.pdf)
+![Geneticprompt](Framework.png)
 
 ## Dataset
 
@@ -50,6 +50,7 @@ If you find this repository helpful, please kindly consider citing the correspon
 ## Acknowledgement
 
 Inspired by and partly based on [AttrPrompt](https://github.com/yueyu1030/AttrPrompt). Thanks to the authors for open-sourcing it.
+
 
 
 
