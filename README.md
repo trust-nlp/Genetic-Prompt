@@ -1,8 +1,8 @@
-## Genetic Prompt （EMNLP2025 Findings）
+## Genetic Prompt （EMNLP2025）
 This repo contains the code for paper [Attributes as Textual Genes: Leveraging LLMs as Genetic Algorithm Simulators for Conditional Synthetic Data Generation](https://arxiv.org/abs/2509.02040), which will appear at Findings of EMNLP 2025. 
 
 ## Framework
-![Geneticprompt](figure/)
+![Geneticprompt](framework.pdf)
 
 ## Dataset
 
@@ -10,17 +10,16 @@ We use eight datasets covering diverse domains and tasks.
 The table below lists the basic statistics and download sources.  
 We also provide preprocessing scripts in `/Data-preprocess` to convert the raw data into expected format.
 
-| Dataset | Domain | Task | #Train | #Test | #Classes | Download |
-|----------|---------|-------|--------|--------|-----------|-----------|
-| AG News | News | Classification (CLS) | 120,000 | 7,600 | 4 | [Link](https://huggingface.co/datasets/yyu/agnews-attrprompt) |
-| StackExchange | Science | Classification (CLS) | 27,086 | 2,494 | 50 | [Link](https://huggingface.co/datasets/yyu/stackexchange-attrprompt) |
-| ChemProt | Biomedicine | Relation Extraction (RE) | 1,069 | 1,041 | 5 | [Link](https://huggingface.co/datasets/AdaptLLM/ChemProt) |
-| DDI | Pharmacology | Relation Extraction (RE) | 1,482 | 339 | 4 | [Link](https://github.com/isegura/DDICorpus) |
-| SemEval | Web | Relation Extraction (RE) | 6,590 | 2,263 | 9 | [Link](https://huggingface.co/datasets/SemEvalWorkshop/sem_eval_2010_task_8) |
-| CoNLL04 | News | Relation Extraction (RE) | 922 | 288 | 5 | [Link](https://huggingface.co/datasets/DFKI-SLT/conll04) |
-| SciTLDR | Science | Abstractive Summarization (ABS) | 2,168 | 662 | – | [Link](https://github.com/allenai/scitldr/tree/master/SciTLDR-Data) |
-| MeQSum | Medical | Abstractive Summarization (ABS) | 1,000 | 100 | – | [Link](https://github.com/abachaa/MeQSum) |
-
+| Dataset | Domain | Task | Download |
+|----------|---------|-------|-----------|
+| AG News | News | Classification (CLS) | [Link](https://huggingface.co/datasets/yyu/agnews-attrprompt) |
+| StackExchange | Science | Classification (CLS) | [Link](https://huggingface.co/datasets/yyu/stackexchange-attrprompt) |
+| ChemProt | Biomedicine | Relation Extraction (RE) | [Link](https://huggingface.co/datasets/AdaptLLM/ChemProt) |
+| DDI | Pharmacology | Relation Extraction (RE) | [Link](https://github.com/isegura/DDICorpus) |
+| SemEval | Web | Relation Extraction (RE) | [Link](https://huggingface.co/datasets/SemEvalWorkshop/sem_eval_2010_task_8) |
+| CoNLL04 | News | Relation Extraction (RE) | [Link](https://huggingface.co/datasets/DFKI-SLT/conll04) |
+| SciTLDR | Science | Abstractive Summarization (ABS) | [Link](https://github.com/allenai/scitldr/tree/master/SciTLDR-Data) |
+| MeQSum | Medical | Abstractive Summarization (ABS) | [Link](https://github.com/abachaa/MeQSum) |
 
 ## Synthetic Data Generation
 
@@ -51,5 +50,6 @@ If you find this repository helpful, please kindly consider citing the correspon
 ## Acknowledgement
 
 Inspired by and partly based on [AttrPrompt](https://github.com/yueyu1030/AttrPrompt). Thanks to the authors for open-sourcing it.
+
 
 
