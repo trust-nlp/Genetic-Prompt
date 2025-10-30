@@ -6,8 +6,9 @@ This repo contains the code for paper [Attributes as Textual Genes: Leveraging L
 
 ## Environment
 
-conda env create -f environment.yml
-conda activate SDG
+`conda env create -f environment.yml`
+
+`conda activate SDG`
 
 ## Dataset
 
@@ -54,6 +55,7 @@ If you find this repository helpful, please kindly consider citing the correspon
 ## Acknowledgement
 
 Inspired by and partly based on [AttrPrompt](https://github.com/yueyu1030/AttrPrompt). Thanks to the authors for open-sourcing it.
+
 
 
 
