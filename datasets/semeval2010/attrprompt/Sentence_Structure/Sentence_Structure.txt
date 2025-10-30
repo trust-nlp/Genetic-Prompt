@@ -1,0 +1,6 @@
+simple
+compound
+complex
+compound-complex
+interrogative
+imperative

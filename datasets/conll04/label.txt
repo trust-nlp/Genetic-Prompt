@@ -1,0 +1,5 @@
+Kill
+Live_In
+Located_In
+OrgBased_In
+Work_For

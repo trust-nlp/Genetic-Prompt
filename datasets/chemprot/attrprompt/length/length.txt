@@ -1,0 +1,3 @@
+short (10-20 words)
+medium (21-40 words)
+long (41-60 words)

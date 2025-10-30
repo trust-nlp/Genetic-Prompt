@@ -1,0 +1,5 @@
+adjacent (next to each other)
+close (1-3 words apart)
+medium (4-7 words apart)
+far (8+ words apart)
+cross-sentence (entities in different sentences)

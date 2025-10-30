@@ -1,0 +1,9 @@
+Cause-Effect
+Component-Whole
+Content-Container
+Entity-Destination
+Entity-Origin
+Instrument-Agency
+Member-Collection
+Message-Topic
+Product-Producer

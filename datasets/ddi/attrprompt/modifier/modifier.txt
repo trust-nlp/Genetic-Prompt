@@ -1,0 +1,4 @@
+Intensity
+Frequency
+Temporal
+Uncertainty
