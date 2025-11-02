@@ -41,20 +41,30 @@ Feel free to contact ghan AT memphis DOT edu for any questions and collaboration
 If you find this repository helpful, please kindly consider citing the corresponding paper. Thanks in advance!
 
 ```
-@misc{han2025attributestextualgenesleveraging,
-      title={Attributes as Textual Genes: Leveraging LLMs as Genetic Algorithm Simulators for Conditional Synthetic Data Generation}, 
-      author={Guangzeng Han and Weisi Liu and Xiaolei Huang},
-      year={2025},
-      eprint={2509.02040},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2509.02040}, 
+@inproceedings{han2025attributes,
+    title = "Attributes as Textual Genes: Leveraging {LLM}s as Genetic Algorithm Simulators for Conditional Synthetic Data Generation",
+    author = "Han, Guangzeng  and
+      Liu, Weisi  and
+      Huang, Xiaolei",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-emnlp.1055/",
+    pages = "19367--19389",
+    ISBN = "979-8-89176-335-7"
 }
 ```
 
 ## Acknowledgement
 
 Inspired by and partly based on [AttrPrompt](https://github.com/yueyu1030/AttrPrompt). Thanks to the authors for open-sourcing it.
+
 
 
 
